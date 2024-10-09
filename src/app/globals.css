@@ -2,26 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 30px;
+  background-color: lightgreen;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.home {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.about {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(196, 139, 183);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.contact {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(174, 228, 89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.service {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.myself {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(182, 137, 86);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
